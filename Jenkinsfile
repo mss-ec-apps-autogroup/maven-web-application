@@ -7,7 +7,6 @@ node
  {
  git branch: 'development', credentialsId: '57232088-2c1f-46bc-88ab-6123fd9c6160', url: 'https://github.com/mss-ec-apps-autogroup/maven-web-application.git'
  }
-
 /*	
  stage('Build'){
  sh "${mavenHome}/bin/mvn clean package"
@@ -33,5 +32,6 @@ node
 regards 
 vamsi reddy''', subject: 'Build over', to: 'rvamshi666@gmail.com'
  }
- /*
+ */
+ 
 }
