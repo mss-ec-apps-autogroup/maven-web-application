@@ -33,8 +33,8 @@ stages{
    sh "mvn clean package"
    }
    }
-    
-	//Execute SonarQube Report
+    /*
+    //Execute SonarQube Report
     stage('SonarQubeReport'){
     steps{
    sh "mvn clean sonar:sonar"
@@ -80,6 +80,7 @@ vamsi reddy''', subject: 'Build over', to: 'rvamshi666@gmail.com'
 regards 
 vamsi reddy''', subject: 'Build over', to: 'rvamshi666@gmail.com'
   }
+*/
 
 }
 
